@@ -14,10 +14,10 @@ Download dockerfile via github.
 
 Build Docker Container and start it.
 
- 	cd content-aws-csa2019/lesson_files/03_compute/Topic5_Containers/Docker/
-        docker build -t containercat .
+	cd content-aws-csa2019/lesson_files/03_compute/Topic5_Containers/Docker/
+	docker build -t containercat .
 	docker images --filter reference=containercat 
-        docker run -t -i -p 80:80 containercat
+	docker run -t -i -p 80:80 containercat
 
 Pull build new container image to docker hub.
         
